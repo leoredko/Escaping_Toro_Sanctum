@@ -80,3 +80,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.link-wrap {
+  display: flex;
+}
