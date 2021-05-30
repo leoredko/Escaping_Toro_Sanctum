@@ -1,6 +1,7 @@
 body {
   background-color: rgb(4, 4, 4);
   color: rgba(0, 210, 7, 0.701);
+  /* background-image: url("images/CFJ\ L"); */
 }
 
 h1 {
@@ -82,5 +83,5 @@ a:active {
 }
 
 .link-wrap {
-  display: flex;
+  justify-content: space-between;
 }
