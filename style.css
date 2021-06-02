@@ -14,7 +14,7 @@ nav {
 nav p {
   font-family: "Press Start 2P", cursive;
   color: rgba(255, 255, 255, 0.701);
-  font-size: 24px;
+  font-size: 20px;
   float: left;
   padding: 0px 20px;
 }
@@ -30,6 +30,10 @@ nav ul li {
 
 nav ul li a {
   display: block;
+  font-family: "Press Start 2P", cursive;
+  color: rgba(255, 255, 255, 0.701);
+  font-size: 14px;
+  padding: 22px 14px;
 }
 
 body {
