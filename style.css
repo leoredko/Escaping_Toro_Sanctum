@@ -26,6 +26,7 @@ nav ul {
 nav ul li {
   float: left;
   list-style: none;
+  position: relative;
 }
 
 nav ul li a {
@@ -34,6 +35,30 @@ nav ul li a {
   color: rgba(255, 255, 255, 0.701);
   font-size: 14px;
   padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 210, 7, 0.701);
+  padding: 10px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 225px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: rgb(4, 4, 4);
 }
 
 body {
