@@ -148,3 +148,7 @@ a:active {
 .link-wrap {
   justify-content: space-between;
 }
+
+.job-links {
+  text-align: center;
+}
